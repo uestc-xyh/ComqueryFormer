@@ -7,7 +7,7 @@ In this paper, we study the composed query image retrieval, which aims at retrie
 ## ComqueryFormer Architecture 
 <div align=center><img src="figs/figure_2.png" width="600"></div>
 
-We introduce the first unified multi-modal transformer named ComqueryFormer for composed query image retrieval, which performs the feature encoding and composition by a stack of transformer layers. In addition, we propose an effective global-local mechanism to align the composed query and target image in a complementary manner. Especially, we propose to implicitly detect dis- criminative visual regions through learnable region masks for local alignment. The ComqueryFormer outperforms previous state-of-the- art results on three public datasets that are FashionIQ, CIRR, and Fashion200K.
+We introduce the first unified multi-modal transformer named ComqueryFormer for composed query image retrieval, which performs the feature encoding and composition by a stack of transformer layers. In addition, we propose an effective global-local mechanism to align the composed query and target image in a complementary manner. Especially, we propose to implicitly detect discriminative visual regions through learnable region masks for local alignment. The ComqueryFormer outperforms previous state-of-the- art results on three public datasets that are FashionIQ, CIRR, and Fashion200K.
 
 ## Description of the Code [(From TIRG)](https://github.com/google/tirg/edit/master/README.md)
 The code is based on TIRG code. 
